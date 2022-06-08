@@ -1,0 +1,16 @@
+.social-border {
+  width: 50%;
+  height: 2px;
+  background-color: rgb(194, 51, 51);
+}
+.socialLink-button img {
+  width: 35px;
+}
+.socialLink-button button {
+  background-color: rgba(236, 49, 49, 0.801);
+  color: #fff;
+}
+.socialLink-button button:hover {
+  background-color: rgb(226, 21, 21);
+  color: #fff;
+}

@@ -1,0 +1,13 @@
+.from-blog button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  text-transform: uppercase;
+  transition: 0.3s;
+  padding: 12px 25px;
+  font-size: 17px;
+}
+.from-blog button:hover {
+  background-color: #e52e06;
+  color: white;
+}

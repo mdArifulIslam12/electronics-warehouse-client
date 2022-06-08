@@ -1,0 +1,68 @@
+[
+    {
+        
+        "name":"Samsung",
+        "email":"kawsar@gmail.com",
+        "price":"125",
+        "quantity":10,
+        "suppliler":"William",
+        "img":"http://ledthanhdat.vn/html/kobolg/assets/images/apro51012-1-270x350.jpg",
+        "description":"The easiest way to check your phone's model name and number is to use the phone itself. Go to the Settings or Options menu, scroll to the bottom of the list, and check 'About phone', 'About device' or similar. The device name and model number should be listed."
+    },
+    {
+        "name":"Jaeger-LeCoultre",
+        "email":"mdarif767778@gmail.com",
+        "price":"100",
+        "quantity":10,
+        "suppliler":"Olivia",
+        "img":"http://ledthanhdat.vn/html/kobolg/assets/images/apro1211-2-270x350.jpg",
+        "description":"Established in 1833 in the Swiss Jura Mountains, Jaeger-LeCoultre is known for its clever designs. One of its most notable—and coveted—styles, the Reverso, features a face that flips over to protect itself within the watch casing"
+    },
+    {
+        "name":"Mac 27 Inch",
+        "email":"rahat@gmail.com",
+        "price":"190",
+        "quantity":10,
+        "suppliler":"James",
+        "img":"http://ledthanhdat.vn/html/kobolg/assets/images/apro101-1-270x350.jpg",
+        "description":"The Apple Macintosh TV, not to be confused with the modern Apple TV, features a 32 MHz 68030 processor, 5 MB of RAM, a 160 MB hard drive, and an integrated TV tuner in a stylish, black all-in-one case with a 14' color display."
+    },
+    {
+        "name":"Red Mouse",
+        "email":"mdarif767778@gmail.com",
+        "price":"18",
+        "quantity":10,
+        "suppliler":"Liam",
+        "img":"http://ledthanhdat.vn/html/kobolg/assets/images/apro181-2-270x350.jpg",
+        "description":"A mouse is a small handheld input device that controls a computer screen's cursor or pointer in conjunction with the way it is moved on a flat surface."
+    },
+    {
+       
+        "name":"Samsung 55-Inch",
+        "email":"rahman@gmail.com",
+        "price":"150",
+        "quantity":10,
+        "suppliler":"Ava",
+        "img":"https://martfury02.magebig.com/media/catalog/product/cache/6b71b208d69c1b4f2b5e9e787cb531fa/5/1/51a.jpg",
+        "description":"Samsung 55-Inch 4K Ultra HD Smart LED TV"
+    },
+    {
+        
+        "name":"Canon MX492",
+        "email":"kawsar@gmail.com",
+        "price":"330",
+        "quantity":10,
+        "suppliler":"Sophia",
+        "img":"https://5.imimg.com/data5/PU/LH/GLADMIN-36232551/canon-pixma-mx492-black-wireless-printer-500x500.png",
+        "description":"Canon MX492 Wireless All-In-One Small printer."
+    },
+    {   
+        "name":"Frédérique Constant",
+        "email":"raham@gmail.com",
+        "price":"110",
+        "quantity":10,
+        "suppliler":"Charlotte",
+        "img":"http://ledthanhdat.vn/html/kobolg/assets/images/apro41-1-270x350.jpg",
+        "description":"Founded in 1988 by Dutch couple Peter Stas and Aletta Stas-Bax, Frédérique Constant's mission statement is to craft fine luxury watches using Swiss techniques but sold at a relatively accessible price point."
+    }
+]

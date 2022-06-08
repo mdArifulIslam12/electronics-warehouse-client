@@ -1,0 +1,16 @@
+.link {
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 500;
+  color: white;
+}
+.add-product {
+  background-color: rgb(233, 28, 28);
+  transition: 0.3s;
+}
+.add-product:hover {
+  background-color: rgb(39, 34, 34);
+}
+.link:hover {
+  color: white;
+}

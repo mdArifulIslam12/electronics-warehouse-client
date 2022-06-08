@@ -1,0 +1,50 @@
+[
+    {
+        "title":"Tv Televisions",
+        "description1":"4K Ultra HD TVs",
+        "description2":"LED TVs",
+        "description3":"OLED TVs",
+        "description4":"Accessories",
+        "img":"https://martfury02.magebig.com/media/wysiwyg/magebig/catalog/catalog-01.jpg"
+    },
+    {
+        "title":"Air Conditioners",
+        "description1":"Type Hanging on wall",
+        "description2":"Type Erect",
+        "description3":"Type Hanging on celling",
+        "description4":"Accessories",
+        "img":"https://martfury02.magebig.com/media/wysiwyg/magebig/catalog/catalog-02.jpg"
+    },
+    {
+        "title":"Washing Machine",
+        "description1":"Type Horizontal",
+        "description2":"Type Vertical",
+        "description3":"Type Drying clothes",
+        "description4":"Accessories",
+        "img":"https://martfury02.magebig.com/media/wysiwyg/magebig/catalog/catalog-03.jpg"
+    },
+    {
+        "title":"Audios & Theaters",
+        "description1":"Speakers",
+        "description2":"Home Theater System",
+        "description3":"Wireless Audio",
+        "description4":"Headphone",
+        "img":"https://martfury02.magebig.com/media/wysiwyg/magebig/catalog/catalog-04.jpg"
+    },
+    {
+        "title":"Office Electronics",
+        "description1":"Printers",
+        "description2":"Store & Business",
+        "description3":"Scanners",
+        "description4":"Projectors",
+        "img":"https://martfury02.magebig.com/media/wysiwyg/magebig/catalog/catalog-05.jpg"
+    },
+    {
+        "title":"Car Electronics",
+        "description1":"Audio & Video",
+        "description2":"Radar Detector",
+        "description3":"Car Security Products",
+        "description4":"Vehicle Gps Tracking",
+        "img":"https://martfury02.magebig.com/media/wysiwyg/magebig/catalog/catalog-06.jpg"
+    }
+]
