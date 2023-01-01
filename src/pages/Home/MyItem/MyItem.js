@@ -9,7 +9,7 @@ const MyItem = () => {
   useEffect(() => {
     const getItems = async () => {
       const email = user.email;
-      const url = `https://electronic-inventory.herokuapp.com/inventory?email=${email}`;
+      const url = `https://electronics-warehouse.onrender.com/inventory?email=${email}`;
       const { data } = await axios.get(url);
       setItems(data);
     };
@@ -19,7 +19,7 @@ const MyItem = () => {
     const proceed = window.confirm("Are your sure!!");
 
     if (proceed) {
-      const url = `https://electronic-inventory.herokuapp.com/inventorys/${id}`;
+      const url = `https://electronics-warehouse.onrender.com/inventorys/${id}`;
       fetch(url, {
         method: "DELETE",
       })

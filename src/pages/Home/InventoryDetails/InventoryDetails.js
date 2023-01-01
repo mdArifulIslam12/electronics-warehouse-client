@@ -14,7 +14,7 @@ const InventoryDetails = () => {
   const [date, setDate] = useState({});
 
   useEffect(() => {
-    fetch(`https://electronic-inventory.herokuapp.com/inventorys/${id}`)
+    fetch(`https://electronics-warehouse.onrender.com/inventorys/${id}`)
       .then((res) => res.json())
       .then((data) => setSingleItem(data));
   }, [date]);
@@ -45,7 +45,7 @@ const InventoryDetails = () => {
     const user = { quantitys };
 
     // send data
-    fetch(`https://electronic-inventory.herokuapp.com/inventorys/${id}`, {
+    fetch(`https://electronics-warehouse.onrender.com/inventorys/${id}`, {
       method: "PUT",
       headers: {
         "content-type": "application/json",

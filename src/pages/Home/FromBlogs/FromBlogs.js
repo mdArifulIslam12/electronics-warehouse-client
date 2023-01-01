@@ -5,7 +5,7 @@ import "./FromBlogs.css";
 const FromBlogs = () => {
   const [fromBlogs, setFromBlogs] = useState([]);
   useEffect(() => {
-    fetch("https://electronic-inventory.herokuapp.com/fromBlog")
+    fetch("https://electronics-warehouse.onrender.com/fromBlog")
       .then((res) => res.json())
       .then((data) => setFromBlogs(data));
   }, []);

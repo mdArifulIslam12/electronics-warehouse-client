@@ -9,7 +9,7 @@ const AddProduct = () => {
   const email = user.email;
   const { register, handleSubmit } = useForm();
   const onSubmit = (data, event) => {
-    const url = "https://electronic-inventory.herokuapp.com/inventorys";
+    const url = "https://electronics-warehouse.onrender.com/inventorys";
     fetch(url, {
       method: "POST",
       headers: {

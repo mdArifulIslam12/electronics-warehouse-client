@@ -3,7 +3,7 @@ import Categorie from "../Categorie/Categorie";
 
 const Categories = () => {
   const [categories, SetCategories] = useState([]);
-  useEffect(() => {  fetch("https://electronic-inventory.herokuapp.com/topCategories")
+  useEffect(() => {  fetch("https://electronics-warehouse.onrender.com/topCategories")
   .then((res) => res.json())
       .then((data) => SetCategories(data));
   }, []);

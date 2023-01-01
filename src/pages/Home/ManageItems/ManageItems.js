@@ -5,7 +5,7 @@ import "./ManageItems.css";
 const ManageItems = () => {
   const [inventorys, setInventorys] = useState([]);
   useEffect(() => {
-    fetch("https://electronic-inventory.herokuapp.com/inventorys")
+    fetch("https://electronics-warehouse.onrender.com/inventorys")
       .then((res) => res.json())
       .then((data) => setInventorys(data));
   }, []);
@@ -13,7 +13,7 @@ const ManageItems = () => {
     const proceed = window.confirm("Are your sure!!");
 
     if (proceed) {
-      const url = `https://electronic-inventory.herokuapp.com/inventorys/${id}`;
+      const url = `https://electronics-warehouse.onrender.com/inventorys/${id}`;
       fetch(url, {
         method: "DELETE",
       })
