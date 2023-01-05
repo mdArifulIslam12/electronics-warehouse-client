@@ -23,6 +23,7 @@ const InventoryDetails = () => {
     const quantitys = quantity - 1;
     if (0 <= quantitys) {
       await handleUpdate(quantitys);
+      toast('Product quantity value -1 !!')
     } else {
       toast("Product not found!!");
     }
@@ -36,6 +37,7 @@ const InventoryDetails = () => {
       const quantitys = quantity + quantityValue;
       await handleUpdate(quantitys);
       event.target.reset();
+      toast('Quantity Add !!')
     } else {
       event.target.reset();
       toast("Enter Positive number");
@@ -59,15 +61,19 @@ const InventoryDetails = () => {
   };
   return (
     <div className="container">
-      <div className="w-50 mx-auto mt-5 mb-5">
-        <img src={singleItem.img} alt="" />
+      <div className="row mt-5">
+      <div className="col-lg-6 my-auto">
+      <img src={singleItem.img} alt="" />
+      </div>
+      <div className="col-lg-6">
+        
         <h2>Name: {singleItem.name}</h2>
         <h3>Quantity: {singleItem.quantity}</h3>
         <p>Price: {singleItem.price}</p>
         <p>Suppliler name: {singleItem.suppliler}</p>
         <p>{singleItem.description}</p>
 
-        <Form onSubmit={handleQuantityAdd} className="mb-5">
+        <Form onSubmit={handleQuantityAdd} className="mb-5 from">
           <Form.Group className="mb-3">
             <Form.Label className="fw-bold">Quantity </Form.Label>
             <Form.Control
@@ -76,25 +82,30 @@ const InventoryDetails = () => {
               placeholder="Quantity added"
             />
           </Form.Group>
-          <Button
+            <Button
             variant="danger"
-            type="Login"
-            className="quantity-button p-2 px-3"
+            type="submit"
+            className="quantity-button p-2 px-3 "
           >
             Quantity Add
           </Button>
+          
+           
+           
+         
         </Form>
         <button
-          className="btn d-block text-white p-2 px-4 delivered-button"
+          className="btn text-white p-2 px-4 delivered-button"
           onClick={handleDelivered}
         >
           Delivered
         </button>
-        <button className="btn text-white mt-4 p-3 px-4 manageItem-button">
+        <button className="btn text-white p-3 px-4 manageItem-button">
           <Link className="link" to={"/manageItem"}>
             ManageItems
           </Link>
         </button>
+      </div>
       </div>
     </div>
   );

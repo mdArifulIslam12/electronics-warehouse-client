@@ -37,7 +37,7 @@ const Footer = () => {
               </div>
             </div>
             <div class="row ">
-              <div class="col-xl-8 col-md-4 col-sm-4 col-auto  my-md-0 mt-5 order-sm-1 order-3 align-self-end">
+              <div class="col-xl-7 col-md-4 col-sm-4 col-auto  my-md-0 mt-5 order-sm-1 order-3 align-self-end">
                 <p class="social text-muted mb-0 pb-0 bold-text">
                   {" "}
                   <span class="mx-2">
@@ -57,16 +57,16 @@ const Footer = () => {
                    &copy; Copy right {year}. All Rights Reserved.
                 </small>
               </div>
-              <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
+              <div class="col-xl-3 col-md-4 col-sm-4 col-auto order-1 align-self-end ">
                 <h6 class="mt-55 mt-2 text-muted bold-text">
-                  <b>ANIRUDH SINGLA</b>
+                  <b>Md Arif</b>
                 </h6>
                 <small>
                   {" "}
                   <span>
                     <i class="fa fa-envelope" aria-hidden="true"></i>
                   </span>{" "}
-                  anirudh@gmail.com
+                  mdarif767778@gmail.com
                 </small>
               </div>
               <div class="col-xl-2 col-md-4 col-sm-4 col-auto order-2 align-self-end mt-3   ">

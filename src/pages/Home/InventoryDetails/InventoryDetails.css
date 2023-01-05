@@ -32,3 +32,13 @@
 .link:hover {
   color: white;
 }
+
+.from{
+  position: relative;
+}
+
+.delivered-button{
+  position: absolute;
+  top: 67%;
+  right: 100px;
+}
