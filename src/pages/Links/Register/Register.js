@@ -38,7 +38,6 @@ const Register = () => {
     const displayName = event.target.name.value;
     const email = event.target.email.value;
     const passwords = event.target.password.value;
-
     await createUserWithEmailAndPassword(email, passwords);
     await updateProfile({ displayName });
   };
@@ -46,61 +45,84 @@ const Register = () => {
     navigate("/login");
   };
   return (
-    <div className="container w-50 mx-auto">
-      <h2 className="text-center text-primary mt-5 mb-3">Please Register </h2>
-      <Form onSubmit={handleSubmit}>
-        <Form.Group className="mb-3">
-          <Form.Label>Name</Form.Label>
-          <Form.Control type="text" name="name" placeholder="Your Name" />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
-            type="email"
-            placeholder="Enter email"
-            name="email"
-            required
-          />
-          <Form.Text className="text-muted">
-            We'll never share your email with anyone else.
-          </Form.Text>
-        </Form.Group>
-
-        <Form.Group className="mb-3" controlId="formBasicPassword">
-          <Form.Label>Password</Form.Label>
-          <Form.Control
-            type="password"
-            placeholder="Password"
-            name="password"
-            required
-          />
-        </Form.Group>
-
-        <Form.Group className="mb-3" controlId="formBasicCheckbox">
-          <Form.Check
-            type="checkbox"
-            label="Accept Terms and Conditions"
-            name="terms"
-            onClick={() => setAgree(!agree)}
-            className={agree ? "text-primary" : "text-danger"}
-          />
-        </Form.Group>
-        <Button disabled={!agree} variant="primary" type="Login">
-          Register
-        </Button>
-        {errorElement}
-      </Form>
-      <p className="">
-        Already have a account?{" "}
-        <Link
-          to={"/login"}
-          onClick={navigateLogin}
-          className="text-primary text-decoration-none pe-auto"
-        >
-          Please Login
-        </Link>
-      </p>
-      <SocialLink></SocialLink>
+    <div className="html">
+      <div className="container ">
+        <div class="d-flex justify-content-center h-100">
+          <div class="card card-login">
+            <div class="card-header">
+              <h3>Sign In</h3>
+              <div class="d-flex justify-content-end social_icon">
+                <SocialLink></SocialLink>
+              </div>
+            </div>
+            <div class="card-body">
+              <form onSubmit={handleSubmit}>
+                <div class="input-group form-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="fas fa-user"></i>
+                    </span>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="name"
+                    name="name"
+                  />
+                </div>
+                <div class="input-group form-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="fas fa-envelope"></i>
+                    </span>
+                  </div>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Email"
+                    name="email"
+                    required
+                  />
+                </div>
+                <div class="input-group form-group">
+                  <div class="input-group-prepend">
+                    <span class="input-group-text">
+                      <i class="fas fa-key"></i>
+                    </span>
+                  </div>
+                  <input
+                    type="password"
+                    class="form-control"
+                    placeholder="password"
+                    name="password"
+                  />
+                </div>
+                <div class="row align-items-center remember">
+                  <input type="checkbox" onClick={() => setAgree(!agree)} />
+                  Accept Terms and Conditions
+                </div>
+                <div class="form-group">
+                  <input
+                    type="submit"
+                    disabled={!agree}
+                    value="Sing Up"
+                    class="btn float-right login_btn"
+                  />
+                </div>
+              </form>
+            </div>
+            <div class="card-footer">
+              {errorElement}
+              <div class="d-flex justify-content-center links">
+                Already have a account?
+                <Link to="/login" onClick={navigateLogin}>
+                  Sign In
+                </Link>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
